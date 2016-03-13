@@ -1,0 +1,87 @@
+﻿body {
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.page {
+    width:760px;
+    background-color: #fff;
+    margin: 20px auto 0px auto;
+    border: 1px solid #496077;
+}
+
+.header{
+    position: relative;
+    margin-bottom: 10px;
+    padding: 0px;
+    background: #4b6c9e;
+    width: 100%;
+}
+
+.header h2 {
+    text-align: center;
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+    color: #f9f9f9;
+    border: none;
+    line-height: 2em;
+    font-size: 2em;
+}
+
+.teamContainer {
+    margin: 0px 0px 10px 40px;
+}
+
+.teamNameHeader{
+    font-size: 1.2em;
+    margin-bottom: 2px;
+}
+
+.teamCount{
+    padding-left: 7px;
+}
+
+.gameInfoRow1{
+    padding-left:19px;
+}
+
+.gameInfoRow2 {
+    padding-left:19px;
+    display:inline-block;
+    margin-bottom: 5px;
+}
+
+.gameInfoToggle {
+    display: none;
+}
+
+.details {
+    color: dodgerblue;
+    font-size:11px;
+}
+
+.details:hover {
+    color: coral;
+    cursor: pointer;
+}
+
+.oppPlayedNightBefYes {
+    color: blue;
+}
+
+.oppPlayedNightBefNo {
+    color: red;
+}
+
